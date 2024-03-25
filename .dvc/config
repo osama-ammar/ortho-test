@@ -1,0 +1,8 @@
+[core]
+    remote = drive
+    autostage = true
+['remote "remote-name"']
+    url = D:\datasets\local-dvc-cache
+['remote "drive"']
+    url = gdrive://1v5YFRiY7oI8Bct0yOmpYyZKMK5t29AD4
+    gdrive_acknowledge_abuse = true

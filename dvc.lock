@@ -1,0 +1,19 @@
+schema: '2.0'
+stages:
+  update_pathes:
+    cmd: python dataset_stats.py
+    deps:
+    - path: data
+      hash: md5
+      md5: 03d6131c4668a5390544358f232b658f.dir
+      size: 46667
+      nfiles: 231
+    - path: dataset_stats.py
+      hash: md5
+      md5: b9845eb4ce98665e2eee4857d46e8e48
+      size: 1103
+    outs:
+    - path: stats.csv
+      hash: md5
+      md5: 6e21180a8649802767ad5a5b7be7e7ba
+      size: 177
